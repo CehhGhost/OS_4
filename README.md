@@ -14,8 +14,8 @@
 скрипт, порождающий сразу множество гостей в фоновом режиме.
 ## <br> На 4-5 балла:
 ### Предоставленно решение задачи на С:
-* [Client.c](https://github.com/CehhGhost/OS3/blob/main/First%20Prog/C%20code/Client.c)
-* [Server.c](https://github.com/CehhGhost/OS3/blob/main/First%20Prog/C%20code/Server.c)
+* [Client.c](https://github.com/CehhGhost/OS_4/blob/main/First%20Prog/C%20code/Client.c)
+* [Server.c](https://github.com/CehhGhost/OS_4/blob/main/First%20Prog/C%20code/Server.c)
 ### Работа программы:
 Сначала запускается сервер, затем ожидается подключение пользователей. Каждый пользователь вызывается в отдельный поток. Пользователь имеет на выбор 4 действия:
 * Получить список всех доступных для бронирования комнат (с учетом цены и занятости).
@@ -26,15 +26,15 @@
 
 P.S. При вызове сервера и клиента через командную строку необходимо передвать им данные IP и порт (серверу только порт).
 ### Тестирование программы
-Демонстрационное видео работы программы: [test1](https://github.com/CehhGhost/OS3/blob/main/First%20Prog/Test1.mkv).
+Демонстрационное видео работы программы: [test1](https://github.com/CehhGhost/OS_4/blob/main/First%20Prog/Test1.mkv).
 ## <br> На 6-7 баллов:
 ### Предоставленно решение задачи на С:
-* [Client.c](https://github.com/CehhGhost/OS3/blob/main/Second%20Prog/C%20code/Client.c)
-* [Server.c](https://github.com/CehhGhost/OS3/blob/main/Second%20Prog/C%20code/Server.c)
-* [Spectator.c](https://github.com/CehhGhost/OS3/blob/main/Second%20Prog/C%20code/Spectator.c)
+* [Client.c](https://github.com/CehhGhost/OS_4/blob/main/Second%20Prog/C%20code/Client.c)
+* [Server.c](https://github.com/CehhGhost/OS_4/blob/main/Second%20Prog/C%20code/Server.c)
+* [Spectator.c](https://github.com/CehhGhost/OS_4/blob/main/Second%20Prog/C%20code/Spectator.c)
 ### Работа программы:
 Ничем особо не отличается, кроме того, что теперь пользователь может обратиться к спектаторам, которые хранят все сообщения, чтобы сразу получить нужную информацию о работе системы в целом. В связи с этим теперь добавился новый клиент спектатор, который также подсоединяется к серверу. Чтобы отличать спектатора от клиента, подключаемые отправляют сообщение на сервер с соответсвующим содержимым ("spectator"/"guest"). Для простоты спектаторов может быть не больше 10.
 
 P.S. При вызове сервера, клиента и спектатора через командную строку необходимо передвать им данные IP и порт (серверу только порт).
 ### Тестирование программы
-Демонстрационное видео работы программы: [test2](https://github.com/CehhGhost/OS3/blob/main/Second%20Prog/Test2.mkv).
+Демонстрационное видео работы программы: [test2](https://github.com/CehhGhost/OS_4/blob/main/Second%20Prog/Test2.mkv).
